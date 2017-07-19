@@ -14,7 +14,7 @@ if ($a < $b) {
 // TODO: Shorten these two if statements to a single if/else
 if ($b < $c) {
     echo "$b is less than $c\n";
-} else if ($b >= $c) {
+} else {
     echo "$b is greater than or equal to $c\n";
 }
 
@@ -24,10 +24,9 @@ if ($b < $c) {
 // identical, equal, not equal/identical
 if ($b === $c) {
     echo "$b is identical to $c\n";
-}
-else if { ($b == $c)
+} else if { ($b == $c)
     echo "$b is equal to $c\n";
 }
-else if {($b != $c) {
+else {
     echo "$b is not equal to $c\n";
 }

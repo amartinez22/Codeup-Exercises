@@ -2,8 +2,8 @@
 
 $test = 5;
 while ($test<=15){
+	echo "{$test}\n";
 	$test++;
-	echo $test;
 }
-
+// or $test += 1;
 ?>
